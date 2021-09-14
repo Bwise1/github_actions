@@ -1,5 +1,4 @@
 on: [push]
-
 jobs:
   deploy_job:
     runs-on: ubuntu-latest
