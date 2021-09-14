@@ -9,10 +9,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Dependencies
-        run: 
+        run: | 
           yarn install
           cd src/
           pwd
+          cd ..
       - name: Build
         run: yarn build
 
